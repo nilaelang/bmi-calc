@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+    <main>
+        <div class="left-container">
+            <div class="form-container">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="Enter your weight">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="Enter your height">
+                <div class="button-container">
+                    <button class="calculate-button" onclick="calculateBmi()">Calculate</button>
+                    <button class="clear-button" onclick="clearFields()">Clear</button>
+                </div>
+                <div class="result-container" id="resultContainer">
+                    <p class="result" id="resultValue"></p>
+                </div>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <th>BMI Category</th>
+                        <th>BMI Range</th>
+                    </tr>
+                    <tr>
+                        <td>Underweight</td>
+                        <td>&lt; 18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Healthy Weight</td>
+                        <td>18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td>Overweight</td>
+                        <td>25 - 29.9</td>
+                    </tr>
+                    <tr>
+                        <td>Obese</td>
+                        <td>&ge; 30</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="right-container">
+            <h2> What is BMI ?</h2>
+            <div class="card">
+               
+                <p>
+                    BMI stands for Body Mass Index. It is a value derived from an individual's weight and height and is commonly used as a screening tool to indicate whether a person is underweight, overweight, or has a healthy weight. 
+                </p>
+            </div>
+            <h2> Where is it used ?</h2>
+            <div class="card">
+                
+                <p>
+                    <ul>
+                        <li><strong>Clinical Settings:</strong> Used by healthcare professionals for routine health assessments.</li>
+                        <li><strong>Public Health Initiatives:</strong> Analyzed to monitor population-level trends in obesity.</li>
+                        <li><strong>Fitness Centers:</strong> Employed by trainers to assess clients' weight status.</li>
+                        <li><strong>Research Studies:</strong> Utilized to investigate the relationship between weight and health outcomes.</li>
+                    </ul>
+                </p>
+            </div>
+            <h2> How it is calculated ?</h2>
+            <div class="card">
+                <p>The BMI (Body Mass Index) is calculated using the formula:</p>
+                <p>
+                    \[ \text{BMI} = \frac{\text{weight (kg)}}{\text{height (m)}^2} \]
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 BMI Calculator. All rights reserved.</p>
+        <p class="footer-text"> Developed by: <a href="https://github.com/nilaelang" target="_blank"><img class="footer-logo" src="/github-mark-white.png" alt="Github Logo"></a> <a href="https://github.com/nilaelang" target="_blank">Nilambar Elangbam</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

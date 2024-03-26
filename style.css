@@ -1,0 +1,187 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header h1{
+    color: white;
+    font-size: xx-large;
+    font-family: "Bookman Old Style",sans-serif;
+    background-color: #000d1a;
+    padding: 10px;
+    padding-left: 50px ;
+    margin: 0px;
+    background-color: #000d1a;
+}
+main{
+    height:150vh;   
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    overflow: hidden;
+}   
+.left-container{
+    margin-left: 100px;
+    padding: 5px;
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #ffffff;
+}
+
+footer{
+    padding: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000d1a;
+    color: white;
+}
+footer p{
+    padding: 0px;
+}
+.footer-logo{
+    height: 20px;
+    width: 20px;
+}
+footer a{
+    color: whitesmoke;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.form-container{
+  margin-top: 50px;
+    padding: 20px;
+    height: auto;
+    width: 75%;
+    border: 1px solid #8d9196;
+    border-radius: 5px;
+}
+.calculate-button{
+    background-color: rgb(255, 117, 26);
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: white;
+  }
+  .calculate-button:hover {
+    background-color: rgba(248, 144, 75, 0.911);
+  }
+  .clear-button{
+    background-color: rgb(34, 109, 39);
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: white;
+  }
+
+  .clear-button:hover {
+    background-color:rgba(40, 129, 46, 0.774);
+  }
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .result-container {
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(175, 223, 130); 
+  }
+  
+  .result {
+    color: rgb(6, 109, 6); 
+    font-family: "Futura",sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 50px
+  }
+
+  table, th, td {
+    border: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: skyblue; 
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.right-container{
+    padding:30px;
+    margin-right: 50px;
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.card{
+    background-color: ;
+    padding: 20px;
+    height: auto;
+    width: 75%;
+    border: 2px solid rgb(230, 230, 230);
+}
+h2{
+  color: white;
+  background-color: #000d1a;
+  padding: 2px;
+  padding-left: 50px ;
+  margin: 0px;
+  width: 73.5%;
+  font-family: "Bookman Old Style",sans-serif;
+  font-size: 28px;
+}
+.card p,li{
+    font-family: "Bookman Old Style", Helvetica, sans-serif;
+    font-size: 16px;
+}
