@@ -14,13 +14,13 @@ This BMI (Body Mass Index) Calculator is a web application designed to calculate
 2. Click on the "Calculate" button to obtain your BMI value and weight status remarks.
 3. Use the "Clear" button to reset the input fields and hide the BMI result.
 
+## Deployment
+This BMI Calculator is deployed using GitHub Pages and can be accessed online [here](https://nilaelang.github.io/bmi-calc/).
+
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
-
-## Deployment
-This BMI Calculator can be easily deployed by hosting the provided HTML, CSS, and JavaScript files on a web server.
 
 ## Credits
 - Developed by [Nilambar Elangbam](https://github.com/nilaelang)
