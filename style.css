@@ -200,6 +200,21 @@ tr:nth-child(even) {
   }
 }
 
+.footer-logo {
+    height: 20px;
+    width: 20px;
+  }
+  
+  footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
 @media (min-width: 769px) {
   main{
     flex-direction: row;
